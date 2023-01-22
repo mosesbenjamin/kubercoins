@@ -5,7 +5,7 @@ metadata:
     app: hasher
   name: hasher
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: hasher
